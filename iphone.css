@@ -1,0 +1,156 @@
+/* iphone css */
+
+body {
+    width: 320px;
+    font: 10pt Helvetica, sans-serif;
+}
+
+img, table {
+    max-width: 320px;
+}
+
+.head, .body, .header, .welcome {
+	width: 320px;
+	min-width: 320px;
+}
+
+.social {
+	display: none;
+}
+
+.navi {
+	width: auto;
+	margin-left: 0;
+}
+
+.navi_link {
+	padding-right: 10px;
+}
+
+.vhl_logo {
+	height: 86px;
+	position: relative;
+	bottom: 86px;
+}
+
+.headshot {
+	max-width: 100px;
+	height: auto;
+}
+
+.img_cont {
+	display: none;
+}
+
+.img_title {
+	font-size: 5pt;
+	color: #333;
+}
+
+#in-line-vhl-logo {
+	max-width: 100px;
+	height: auto;
+}
+
+.iphone_img {
+	max-width: 155px;
+	height: auto;
+}
+
+.iphone_cont {
+	max-width: 155px;
+	display: block;
+	padding-top: 0;
+	position: relative;
+	bottom: 3px;
+	background-color: #333;
+}
+
+.iphone_text {
+	display: block;
+	font-size: 5pt;
+	color: white;
+	padding: 5px;
+	padding-top: 0;
+}
+
+.iphone_text a {
+	color: yellow;
+}
+
+.disc_img_cont img {
+	max-width: 50px;
+	height: auto;
+}
+
+.disc_img_cont {
+	width: 50px;
+	height: 50px;
+}
+
+.disc_img_desc {
+	display: none;
+}
+
+.iphone_disc_img_desc {
+	width: 250px;
+	font-size: 8pt;
+	padding: 0;
+	display: block;
+}
+
+#archive_dp {
+	width: auto;
+	height: auto;
+}
+
+#riva {
+	width: 100px;
+	height: auto;
+}
+
+.archive td {
+	padding-bottom: 10px;
+}
+
+.disc_img_title {
+	font-size: 6pt;
+}
+
+.middle {
+	padding-left: 0;
+	min-width: 320px;
+}
+
+.img_desc {
+	font-size: 5pt;
+	display: inline;
+	height: 100%;
+}
+
+.welcome {
+	height: 90px;
+}
+
+.footer_font {
+	position: relative;
+	top: 0;
+	font-size: 6pt;
+}
+
+.footer {
+	width: 320px;
+	height: 20px;
+	min-width: 320px;
+}
+
+.contactsubmit input {
+	font-size: 6pt;
+	height: 20px;
+	width: 40px;
+}
+
+.contactsubmit input:hover {
+	background-color: lightgrey;
+	border: 1px solid #7491A3;
+}

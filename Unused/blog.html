@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Virtual Humanities Lab</title>
+		<link href="index.css" rel="stylesheet">
+	</head>
+		
+	<body style="padding-right: 0.5em;">
+		<form name="contact" class="contact" method="POST" action="submit.html">
+			<p class="middle_title"><span class="underline"><b>Contact us:</b></span></p>
+			<p>
+				Send us any questions, comments, and concerns and the Virtual Humanities Lab faculty and staff will try to get back as soon as possible.
+			</p>
+			<table>
+				<tr>
+					<td class="label">
+						<label for="name">NAME<span style="color: red">*</span></label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="name" />
+					</td>
+				</tr>
+				<tr>
+					<td class="label">
+						<label for="email">EMAIL<span style="color: red">*</span></label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="email" />
+					</td>
+				</tr>
+				<tr>
+					<td class="label">
+						<label for="phone_number">PHONE NUMBER</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="tel" name="phone_number" />
+					</td>
+				</tr>
+				<tr>
+					<td class="label">
+						<label for="question">ENTER YOUR QUESTION BELOW<span style="color: red">*</span></label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<textarea name="question" rows="10"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td class="legend">
+						<span style="color: red">*</span> INDICATES THAT THE FIELD IS REQUIRED
+					</td>
+				</tr>
+				<tr>
+					<td class="contactsubmit">
+						<br />
+						<input type="submit" name="contact" value="Submit" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
